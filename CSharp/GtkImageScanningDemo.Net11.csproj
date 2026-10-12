@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net11.0</TargetFramework>
+		<AssemblyName>GtkImageScanningDemo</AssemblyName>
+
+		<EnableDefaultItems>false</EnableDefaultItems>
+
+		<GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+		<GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
+		<GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
+		<GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+		<GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
+		<GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+		<GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
+
+		<Version>15.5.0.1</Version>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="GtkSharp" Version="3.24.24.95" />
+	</ItemGroup>
+
+	<ItemGroup>
+    <PackageReference Include="Vintasoft.Shared" Version="4.7.0.1" />
+    <PackageReference Include="Vintasoft.Twain" Version="15.5.0.1" />
+    <PackageReference Include="Vintasoft.Sane" Version="15.5.0.1" />
+    <PackageReference Include="Vintasoft.EsclImageScanning" Version="15.5.0.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Compile Include="MainWindows.cs" />
+		<Compile Include="Program.cs" />
+		<Compile Include="UniversalImageScanner\ImagePixelType.cs" />
+		<Compile Include="UniversalImageScanner\IUniversalImageScanner.cs" />
+		<Compile Include="UniversalImageScanner\LinuxUniversalImageScannerManager.cs" />
+		<Compile Include="UniversalImageScanner\UniversalEsclImageScanner.cs" />
+		<Compile Include="UniversalImageScanner\UniversalSaneImageScanner.cs" />
+		<Compile Include="UniversalImageScanner\UniversalTwainImageScanner.cs" />
+	</ItemGroup>
+
+</Project>
