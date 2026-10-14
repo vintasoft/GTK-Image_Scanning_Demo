@@ -66,11 +66,6 @@ namespace GtkImageScanningDemo
             // initialize the window UI
             InitUI();
 
-            // register the evaluation license for VintaSoft Twain .NET SDK
-            Vintasoft.Twain.TwainGlobalSettings.Register("REG_USER", "REG_EMAIL", "EXPIRATION_DATE", "REG_CODE");
-            Vintasoft.EsclImageScanning.EsclGlobalSettings.Register("REG_USER", "REG_EMAIL", "EXPIRATION_DATE", "REG_CODE");
-            Vintasoft.Sane.SaneGlobalSettings.Register("REG_USER", "REG_EMAIL", "EXPIRATION_DATE", "REG_CODE");
-
             _imagePixelTypesComboBox.Active = 0;
             _imageResolutionsComboBox.Active = 0;
             _pageSizesComboBox.Active = 0;
