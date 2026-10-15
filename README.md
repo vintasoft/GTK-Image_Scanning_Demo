@@ -1,6 +1,6 @@
 ﻿# VintaSoft GTK Image Scanning Demo
 
-This GTK Sharp project uses <a href="https://www.vintasoft.com/vstwain-dotnet-index.html">VintaSoft TWAIN .NET SDK</a> and demonstrates how to acquire images from TWAIN/WIA/SANE/eSCL image scanner in Windows/Linux.
+This GTK Sharp project uses <a href="https://www.vintasoft.com/vstwain-dotnet-index.html">VintaSoft TWAIN .NET SDK</a> and demonstrates how to acquire images from TWAIN/WIA/eSCL image scanner in Windows, SANE/TWAIN/eSCL image scanner in Linux.
 
 
 ## Screenshot
