@@ -23,10 +23,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
-    <PackageReference Include="Vintasoft.Shared" Version="4.7.0.1" />
-    <PackageReference Include="Vintasoft.Twain" Version="15.5.0.1" />
-    <PackageReference Include="Vintasoft.Sane" Version="15.5.0.1" />
-    <PackageReference Include="Vintasoft.EsclImageScanning" Version="15.5.0.1" />
+    <PackageReference Include="Vintasoft.Shared" Version="4.7.1.1" />
+    <PackageReference Include="Vintasoft.Twain" Version="15.5.2.1" />
+    <PackageReference Include="Vintasoft.Sane" Version="15.5.2.1" />
+    <PackageReference Include="Vintasoft.EsclImageScanning" Version="15.5.2.1" />
 	</ItemGroup>
 
 	<ItemGroup>
