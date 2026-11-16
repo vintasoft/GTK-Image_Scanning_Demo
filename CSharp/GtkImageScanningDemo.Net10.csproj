@@ -15,7 +15,7 @@
 		<GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
 		<GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
 
-		<Version>15.5.0.1</Version>
+		<Version>15.5.2.1</Version>
 	</PropertyGroup>
 
 	<ItemGroup>
